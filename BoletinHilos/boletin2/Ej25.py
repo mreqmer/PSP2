@@ -50,6 +50,9 @@ class Estudiante(Thread):
               Libreria.libros[self.libro2 - 1].prestado.acquire()
               print(self.name + " tiene el libro " + str(self.libro1))
 
+
+
+
 if __name__ == '__main__':
    libreria = Libreria()
 
